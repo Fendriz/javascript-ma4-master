@@ -1,0 +1,33 @@
+
+1.	DOM stand for the Document Object Model and is a programming interface for html documents. The DOM represent the document with nodes and objects that can be modified
+	with a scripting language like JavaScript.
+
+2.	.querySelector()
+	.createElement()
+	.appendChild()
+
+3. 	A asynchronous call is a call that is done in a different order then how they are listed in the program. In JavaScript this can be done with a callback function.
+   	because of the structure of JavaScript (how the call stack and event loop is working) the callback functions are being held in a separate queue then the non-callback functions. The non-callback function has a "VIP" pass over the callback functions.
+
+4. 	The source tab in chrome dev tools has 3 different parts.
+
+	-	The file navigator where all the files for the site are located.
+	-	The Code Editor where the content of the files is displayed.
+	-	The JavaScript Debugging pane where you have various tools you can use to debug the page's JavaScript
+			- 	add in breakpoints
+			- 	step through code:
+			-	step into function call
+			-	step over next functional
+			etc....
+
+5. 	Since you can end up in an "anti-pattern" that is named "callback hell", you can use a JavaScript promise. A "callback hell» is a callback pattern where you have
+	callbacks inside other callbacks. In cases where you need to have a request based on another request you need to have this. Here you also need to write out error code for each function. This structure can be a bit messy and a promise can be a better choice.
+
+	A promise is an object that wraps an asynchronous  operation and notifies when it's done. Instead of providing a callback it has its own method "then" for when a 	successful result is available and a catch for when something went wrong.
+
+
+6. 	An API is a set of rules for interacting with a webserver. It’s used to describe a kind of web interface. API's responds with data in a raw format that needs to be
+	"parsed" by a programming language. JSON and XML are the most common formats for this.
+
+7. 	A event in JavaScript can be attached to specific items like a button, a paragraph, a div, the whole document. This event can be accessed by an event handler which is a
+	block of code that will run when the event fires.
