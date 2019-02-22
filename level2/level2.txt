@@ -31,3 +31,6 @@
 
 7. 	A event in JavaScript can be attached to specific items like a button, a paragraph, a div, the whole document. This event can be accessed by an event handler which is a
 	block of code that will run when the event fires.
+
+8.  Event bubbling is a way of capturing how an event is propagating though the DOM. In the specific case of bubbling the event is first handled an captured by the inner
+	element and then "bubbling" to the outermost element.
